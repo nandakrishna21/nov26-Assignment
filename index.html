@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DOCUMENT</title>
+</head>
+
+<body>
+    <script>
+        var number = parseInt(prompt('Enter a NUmber: '));
+
+
+        if (number < 0) {
+            console.log('Enter valid number.');
+        } else {
+            let fact = 1;
+            for (i = 1; i <= number; i++) {
+                fact *= i;
+            }
+            console.log(`The factorial of ${number} is ${fact}.`);
+        }
+    </script>
+</body>
+
+</html>
